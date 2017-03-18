@@ -1,0 +1,45 @@
+body {
+  font-family: Open Sans;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  color: #999999;
+
+}
+
+label {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+input {
+  margin-top: 5px;
+  width: 400px;
+  height: 20px;
+  border: none;
+  border-bottom: 1px solid black;
+}
+
+#box {
+  margin-top: 10px;
+  border-radius: 5px;
+  border: 1px solid #999999;
+  width: 400px;
+  height: 300px;
+  font-family: open sans;
+  padding-top: 5px;
+  padding-left: 10px;
+}
+
+button {
+  margin-top: 10px;
+  width: 100px;
+  height: 30px;
+  border-radius: 5px;
+  text-align: center;
+  background-color: #008CFF;
+  border: none;
+  color: white;
+}
