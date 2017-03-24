@@ -2,44 +2,85 @@ body {
   font-family: Open Sans;
 }
 
+
+h1 {
+  padding-top: 90px;
+  text-align: center;
+  font-size: 34px;
+  font-weight: 300;
+  color: black;
+}
+
+p {
+  text-align: center;
+  color: #999999;
+}
+
 form {
   display: flex;
   flex-direction: column;
   color: #999999;
-
 }
 
+
 label {
-  margin-top: 5px;
+  margin-top: 15px;
   margin-bottom: 5px;
+  text-align: center;
 }
 
 input {
-  margin-top: 5px;
-  width: 400px;
+  margin: auto;
+  margin-top: 20px;
+  width: 600px;
   height: 20px;
   border: none;
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid #999999;
+  text-align: center;
+  color: #676767;
+  background-color: none;
+}
+
+input:focus {
+  outline: none;
 }
 
 #box {
+  margin: auto;
   margin-top: 10px;
   border-radius: 5px;
   border: 1px solid #999999;
-  width: 400px;
-  height: 300px;
+  width: 600px;
+  height: 200px;
   font-family: open sans;
   padding-top: 5px;
   padding-left: 10px;
+  text-align: center;
+  color: #676767;
+  background-color: none;
+}
+
+#box:focus {
+  outline: none;
 }
 
 button {
-  margin-top: 10px;
+  margin: auto;
+  margin-top: 30px;
   width: 100px;
   height: 30px;
   border-radius: 5px;
   text-align: center;
-  background-color: #008CFF;
-  border: none;
+  background-color: white;
+  border: 1px solid #999999;
+  color: #999999;
+  display: block;
+  justify-content: center;
+  transition-duration: 0.4s;
+}
+
+button:hover {
+  background-color: #1673ff;
   color: white;
+  cursor: hand;
 }
